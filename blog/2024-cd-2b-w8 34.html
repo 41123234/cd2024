@@ -59,7 +59,7 @@
 <meta property="og:url" content="./2024-cd-2b-w8 34.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-04-11 11:34:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-26 05:55:26.922318+08:00"/>
+<meta property="article:modified_time" content="2024-04-26 06:13:28.996446+08:00"/>
 <meta property="article:author" content="./author/41123234.html">
 <meta property="article:section" content="w8 34"/>
 <meta property="article:tag" content="網誌編寫 34"/>
@@ -74,7 +74,7 @@
   "name": "w8 34",
   "headline": "w8 34",
   "datePublished": "2024-04-11 11:34:00+08:00",
-  "dateModified": "2024-04-26 05:55:26.922318+08:00",
+  "dateModified": "2024-04-26 06:13:28.996446+08:00",
   "author": {
     "@type": "Person",
     "name": "41123234",
@@ -243,6 +243,10 @@ init_mathjax();
 <p>4.分組零組件設計的協同 - 分別採用 <a href="https://solvespace.com/index.pl">Solvespace</a> 作為鋼球平衡台範例, 讓學員使用 <a href="https://plm.sw.siemens.com/en-US/nx/">Siemens NX</a> 1872 進行協同零組件繪圖設計, 並將各零件的 .prt 檔案納入各學員的倉儲進行組立, 以便找出最佳的設計分工以及零組件轉檔流程</p>
 <p>5.分組模擬場景設計的協同 - 當各分組順利完成鋼球平衡台的零組件轉檔後, 一旦進入 <a href="https://www.coppeliarobotics.com/">CoppeliaSim</a> 場景後, 必須逐一配置感測器 (Sensors)、致動器 (Actuators) 以及 <a href="https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller">ZMQ RemoteAPI Python</a>程式, 主要探討如何將此一場景模擬過程在 <a href="https://manual.coppeliarobotics.com/en/xmlFormat.htm">CoppeliaSim XML</a> 檔案格式與 <a href="https://community.sw.siemens.com/s/global-search/%40uri#q=journal.exe">Siemens NXOpen Python</a> 零件程式檔案間, 找到合用或最佳的協同產品設計模式.</p>
 <p>6.分組專案簡報設計的協同 - 在上述各產品設計階段所累積的各種資料, 該如何有效整合到專案完成後必須進行的網際簡報中.</p>
+<h2>2.分組網站內容的協同</h2>
+<p>其中首先要求各組員必須每週在 cd2024 倉儲中的 markdown 目錄編寫 markdown 網誌文章, 再經由 <a href="https://getpelican.com/">Pelican</a> 轉檔至 blog 目錄中的超文件網誌. 由於 <a href="https://getpelican.com/">Pelican</a> 採用 Python 檔案進行設定, 因此可以在轉檔的過程中, 將各子目錄中的組員倉儲網誌集合到分組倉儲中的 combined_markdown 目錄之後, 再指定將網誌超文件轉至各分組倉儲的 blog 目錄.</p>
+<p>由於分組網誌內容協同時, 所有組員所編寫的 markdown 文章必須存入 combined_markdown 目錄, 因此 markdown 網誌文章檔案的命名不可重複, 且各網誌文章的 Slug 字串將會被當作用來命名轉檔後的超文件檔案名稱, 因此也不能重複.</p>
+<p>至於當各組員採用 Replit 維護個人倉儲內容時, 可以直接從 <a href="https://replit.com/~">Replit</a> Connect 至 <a href="https://github.com/">Github</a> 取得維護倉儲的權限, 旦卻無法直接用管理分組倉儲, 因為各組員雖然擁有管理分組倉儲的權限, 但是無法在 <a href="https://replit.com/~">Replit</a> 中以免費的組員帳號管理 <a href="https://classroom.github.com/">Github Classroom</a> 所取得的分組倉儲. 而必須動態納入針對分組倉儲的 OpenSSH 管理權限.</p>
             </section>
 
             <section class="post-info">
