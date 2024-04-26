@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123234協同產品設計實習 - w6 34</title><link href="./" rel="alternate"></link><link href="./feeds/w6-34.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T08:33:30+08:00</updated><entry><title>w6 34</title><link href="./2024-cd-2b-w6%2034.html" rel="alternate"></link><published>2024-03-28T11:34:00+08:00</published><updated>2024-04-25T08:33:30+08:00</updated><author><name>41123234</name></author><id>tag:None,2024-03-28:./2024-cd-2b-w6 34.html</id><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
-</content><category term="w6 34"></category><category term="網誌編寫 34"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123234協同產品設計實習 - w6 34</title><link href="./" rel="alternate"></link><link href="./feeds/w6-34.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T04:49:56+08:00</updated><entry><title>w6 34</title><link href="./2024-cd-2b-w6%2034.html" rel="alternate"></link><published>2024-03-28T11:34:00+08:00</published><updated>2024-04-26T04:49:56+08:00</updated><author><name>41123234</name></author><id>tag:None,2024-03-28:./2024-cd-2b-w6 34.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+
+
+&lt;h2&gt;ODOO PLM 論文中英並列任務&lt;/h2&gt;
+&lt;p&gt;由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2b-midbgx_report.pdf 的製作.&lt;/p&gt;
+&lt;p&gt;若要在近端使用可攜程式環境編譯分組 LaTeX 報告, 請下載 &lt;a href="http://229.cycu.org/miktex-portable.7z"&gt;miktex-portable.7z&lt;/a&gt; (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB) 以及參考資料: &lt;a href="http://229.cycu.org/latex_images_github.7z"&gt;latex_images_github.7z&lt;/a&gt; (需要密碼)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
+&lt;h2&gt;ODOO, NX, Sourcetree, Github and Replit&lt;/h2&gt;
+&lt;p&gt;利用 ODOO PLM, Siemens NX, Sourcetree, Github 分組倉儲與 Replit 打造協同產品開發環境&lt;/p&gt;
+&lt;p&gt;下載 &lt;a href="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyen%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2024%2Fcd2024%2FSiemens%5FNX1872%2E7z&amp;amp;parent=%2Fpersonal%2Fyen%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2024%2Fcd2024&amp;amp;ga=1"&gt;Siemens NX1872.7z&lt;/a&gt; (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)&lt;/p&gt;
+&lt;p&gt;下載 &lt;a href="http://229.cycu.org/SourceTree_portable.7z"&gt;Sourcetree_portable.7z&lt;/a&gt; (需要密碼)&lt;/p&gt;
+&lt;p&gt;其他工具包括 CoppeliaSim, SciTE, Portablegit, Putty, Zoomit, Python, Solvespace 以及 Process Explorer 等.&lt;/p&gt;
+&lt;p&gt;配置重點: NX, Sourcetree 與 CoppeliaSim 設定檔案與管理分組倉儲的權限, 必須存至可攜系統, 並分別從可攜系統啟動後的命令列中啟動.&lt;/p&gt;</content><category term="w6 34"></category><category term="網誌編寫 34"></category></entry></feed>
