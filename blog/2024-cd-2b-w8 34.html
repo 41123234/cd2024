@@ -59,7 +59,7 @@
 <meta property="og:url" content="./2024-cd-2b-w8 34.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-04-11 11:34:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-25 08:41:20.082413+08:00"/>
+<meta property="article:modified_time" content="2024-04-26 05:55:26.922318+08:00"/>
 <meta property="article:author" content="./author/41123234.html">
 <meta property="article:section" content="w8 34"/>
 <meta property="article:tag" content="網誌編寫 34"/>
@@ -74,7 +74,7 @@
   "name": "w8 34",
   "headline": "w8 34",
   "datePublished": "2024-04-11 11:34:00+08:00",
-  "dateModified": "2024-04-25 08:41:20.082413+08:00",
+  "dateModified": "2024-04-26 05:55:26.922318+08:00",
   "author": {
     "@type": "Person",
     "name": "41123234",
@@ -211,7 +211,7 @@ init_mathjax();
             | <time datetime="Thu 11 April 2024">Thu 11 April 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Thu 25 April 2024</span>
+            <span class="post-meta"> | Updated on Fri 26 April 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -233,6 +233,16 @@ init_mathjax();
             <section class="post-content">
                 <p>2024 Spring 網際內容管理與協同產品設計實習課程教學導引.</p>
 
+
+<h2>1.內容管理系統</h2>
+<p>協同產品設計實習課程使用網際內容管理系統, 採 <a href="https://classroom.github.com/">Github Classroom</a> 建立分組倉儲, 並由學員自行利用 <a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a> 作為 <a href="https://github.com/">Github</a> 倉儲的引擎目錄, 利用 Python 執行網頁編輯. 之後再轉檔為靜態網頁, 以便利用 <a href="https://pages.github.com/">Github Pages</a> 所提供的 <a href="https://en.wikipedia.org/wiki/World_Wide_Web">WWW</a> 伺服器呈現協同產品設計過程的相關多媒體內容.</p>
+<p>從協同設計的架構上, 個人與分組的倉儲中, 總共設計了以下幾種內容的協同模式:</p>
+<p>1.分組網站內容的協同 - 其中包括章節式的網站內容與網誌內容, 可以透過 Python 程式方法整合各學員子模組中的 <a href="https://github.com/mdecycu/cmsimde_site/blob/main/config/content.htm">config/content.htm</a> 以及 markdown/*.md 檔案至分組網站中</p>
+<p>2.分組報告內容的協同 - 採用的是 <a href="https://github.com/features/actions">Github Actions</a> 與近端 <a href="https://miktex.org/">MikTeX</a> 中的 <a href="https://yenlungblog.wordpress.com/2012/08/30/latex-xelatex-%E7%B0%A1%E7%B0%A1%E5%96%AE%E5%96%AE%E8%AE%93-latex-%E8%AA%AA%E4%B8%AD%E6%96%87/">xelatex</a> 將 .tex 轉為 pdf 的整合過程</p>
+<p>3.分組產品設計的 PLM 協同 - 採用的是 <a href="https://www.odoo.com/zh_TW/app/plm">Odoo PLM</a> 模組, 讓各分組可以將網站內容、報告內容視為產品, 從協同架構的訂定作為起點, 完成資料展示作為終點, 逐一將過程的協調、派任與執行方法納入 <a href="https://en.wikipedia.org/wiki/Product_lifecycle">PLM</a> 系統管理</p>
+<p>4.分組零組件設計的協同 - 分別採用 <a href="https://solvespace.com/index.pl">Solvespace</a> 作為鋼球平衡台範例, 讓學員使用 <a href="https://plm.sw.siemens.com/en-US/nx/">Siemens NX</a> 1872 進行協同零組件繪圖設計, 並將各零件的 .prt 檔案納入各學員的倉儲進行組立, 以便找出最佳的設計分工以及零組件轉檔流程</p>
+<p>5.分組模擬場景設計的協同 - 當各分組順利完成鋼球平衡台的零組件轉檔後, 一旦進入 <a href="https://www.coppeliarobotics.com/">CoppeliaSim</a> 場景後, 必須逐一配置感測器 (Sensors)、致動器 (Actuators) 以及 <a href="https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller">ZMQ RemoteAPI Python</a>程式, 主要探討如何將此一場景模擬過程在 <a href="https://manual.coppeliarobotics.com/en/xmlFormat.htm">CoppeliaSim XML</a> 檔案格式與 <a href="https://community.sw.siemens.com/s/global-search/%40uri#q=journal.exe">Siemens NXOpen Python</a> 零件程式檔案間, 找到合用或最佳的協同產品設計模式.</p>
+<p>6.分組專案簡報設計的協同 - 在上述各產品設計階段所累積的各種資料, 該如何有效整合到專案完成後必須進行的網際簡報中.</p>
             </section>
 
             <section class="post-info">
